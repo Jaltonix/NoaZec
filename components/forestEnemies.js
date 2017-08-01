@@ -14,7 +14,7 @@ var forestEnemies = {
 function forestEnemyList(enemiesInfo) {
   this.enemyList = [];
   for (let i = 0; i < enemiesInfo.length; i++) {
-    enemyList.push(enemy(enemiesInfo[i]));
+    this.enemyList.push(forestEnemy(enemiesInfo[i]));
   }
 }
 

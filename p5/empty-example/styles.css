@@ -10,15 +10,17 @@ body {
   background-color: black;
 }
 
-#hud, #area{
+* {
   position: absolute;
+}
+
+#hud, #area{
   border: solid 4px var(--alt-color);
   z-index: 1;
   width:720px;
 }
 
 #hud {
-  position: absolute;
   border-bottom: solid 0px #500090;
   top: 120px;
   left: 360px;
@@ -32,30 +34,18 @@ body {
   height: 528px;
 }
 
-#tree {
-  position: absolute;
-  z-index: 2;
-}
+#exit {z-index: 2;}
 
-#exit {
-  position: absolute;
-  z-index: 2;
-}
+#enemy {z-index: 2;}
 
-#enemy {
-  position: absolute;
-  z-index: 2;
-}
+#player {z-index: 3;}
 
-#player {
-  position: absolute;
-  z-index: 3;
-}
+#tree {z-index: 4;}
 /*Age12Humor:'(
   13 length
 */
 #title {
-  position:absolute;
+  white-space: nowrap;
   top: -20px;
   left: 620px;
   font-size: 48px;

@@ -1,4 +1,4 @@
-const exits = {
+const forestExits = {
   tileOne: [],
   tileTwo: [],
   tileThree: [],
