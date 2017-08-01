@@ -2,10 +2,7 @@
   "name": "noa-zec",
   "version": "1.0.0",
   "description": "Not another Zelda clone!",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
+  "main": "sketch.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Minkzx/NoaZec"
@@ -15,15 +12,4 @@
   "bugs": {
     "url": "https://github.com/Minkzx/NoaZec/Issues"
   },
-  "homepage": "https://github.com/Minkzx/NoaZec",
-  "dependencies": {
-    "browserify-middleware": "^7.1.0",
-    "express": "^4.15.3",
-    "jquery": "^3.2.1",
-    "morgan": "^1.8.2",
-    "nodemon": "^1.11.0",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  }
-}
-//window.set_layout({'cols':[0.0, 0.5, 1.0],'rows':[0.0, 0.5, 1.0], 'cells': [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]]})
+  "homepage": "https://github.com/Minkzx/NoaZec"

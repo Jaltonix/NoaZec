@@ -11,9 +11,14 @@ const forestMap = {
   dungeon: {}
 };
 
-function treeConflicts(horizontal, vertical) {
-  for(let i = 0; i < forestMap[player.currentTile].length; i++) {
-    if(forestMap[player.currentTile][i][0] + 1 === horizontal && forestMap[player.currentTile][i][1] + 2 === vertical) return true;
+function drawTrees(treePlacements) {
+  for(let i = 0; i < treePlacements.length; i++) {
+    placeTree = createImg('../../sprites/treeSprite.png');
+    placeTree.id('tree');
+    placeTree.position( (treePlacements[i][0] * 48) + 364, (treePlacements[i][1] * 48) + 220);
   }
-  return false;
+}
+
+function noTreeConflicts(treePlacements, playerHorz, playerVert) {
+  
 }

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: stoNe; /*a name to be used later*/
-    src: url('./stoNe.ttf'); /*URL to font*/
+    font-family: stoNe;
+    src: url('./stoNe.ttf');
 }
 
 :root {
@@ -20,6 +20,9 @@ body {
   width:720px;
 }
 
+#testingPlay {
+  z-index: 10;
+}
 #hud {
   border-bottom: solid 0px #500090;
   top: 120px;
