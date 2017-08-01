@@ -24,14 +24,13 @@ body {
   border-bottom: solid 0px #500090;
   top: 120px;
   left: 360px;
-  height:192px;
 }
 
 #area {
   border-top: solid 0px var(--alt-color);
-  top: 312px;
+  top: 220px;
   left: 360px;
-  height: 528px;
+  height: 624px;
 }
 
 #exit {z-index: 2;}

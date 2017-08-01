@@ -10,3 +10,10 @@ const forestMap = {
   tileNine:  [],
   dungeon: {}
 };
+
+function treeConflicts(horizontal, vertical) {
+  for(let i = 0; i < forestMap[player.currentTile].length; i++) {
+    if(forestMap[player.currentTile][i][0] + 1 === horizontal && forestMap[player.currentTile][i][1] + 2 === vertical) return true;
+  }
+  return false;
+}
